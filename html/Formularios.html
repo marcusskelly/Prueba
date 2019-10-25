@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Ejemplo formularios</title>
+	</head>
+	<body>
+        <h1 style="text-align: center">
+            Web del telepi
+        </h1>
+        <form action="servidorX">
+            <table>
+                <tr>
+                    <td style="width:40%">Nombre:</td>
+                    <td><input id="nombre" type="text" title="Nombre del usuario" placeholder="Escriba sú nombre" required="required"/></td>
+                </tr>
+                <tr>
+                    <td>Direccion:</td>
+                    <td><input id="direccion" type="text"/></td>
+                </tr>
+                <tr>
+                    <td>Telefono: </td>
+                    <td><input id="telefono" type="number"/></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input id="mail" type="email"/></td>
+                </tr>            
+            </table>
+            <h2>Escoja el tamaño</h2>
+            <input type="radio" name="size/">Pequeña</br>
+            <input type="radio" name="size/">mediana</br>
+            <input type="radio" name="size/">Grande</br>
+            <h2>Escoja el tipo de masa</h2>
+            <input type="radio" name="masa/">Fina</br>
+            <input type="radio" name="masa/">Clásica</br>
+            <input type="radio" name="size/">Gorda</br>
+            <h2>Escoja los ingredientes</h2>
+            <input type="checkbox" name="ingredientes/">Piña</br>
+            <input type="checkbox" name="Ingredientes/">Alcaparra</br>
+            <input type="checkbox" name="Ingredientes/">Peperoni</br>
+            <input type="checkbox" name="Ingredientes/">Aceitunas</br>
+            <h2>Escriba sus comentarios</h2>
+            <textarea id="comentarios" cols="50" rows="10"></textarea>
+        </br></br>
+            <button id="botónEnviar">Enviar pedido</button>
+            <input type="submit" value="Botón enviar de verdad"/>
+
+        </form>
+	</body>
+</html>

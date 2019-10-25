@@ -1,0 +1,23 @@
+
+table tr th {
+    font-family:calibri;
+    font-size:20px;
+    color:lightcoral
+
+}
+table tr td{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color:black;
+    text-align:center;
+}
+ body{ 
+     background-color: thistle;
+     
+     background-image: url("ok.jpg");
+
+     background-repeat:no-repeat;
+     
+     background-position: left
+     
+ }
